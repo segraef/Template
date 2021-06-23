@@ -1,10 +1,24 @@
-#  ![AzureIcon] ![PowershellIcon] PowerShell
+#  Template
 
-This repository contains Azure and Windows PowerShell scripts for developers and administrators to develop, deploy, and manage Microsoft Azure and Microsoft Windows ecosystem.
+This repository servers as a Template Repository. It brings you Templates for
+
+- [Azure DevOps Pull Requests](.azuredevops/PULL_REQUEST_TEMPLATE.md)
+- [Azure Pipelines](.pipelines/pipeline.yml)
+- [GitHub Workflows](.github/workflows/workflow.yml)
+- [GitHub Issues](.github/ISSUE_TEMPLATE/)
+  - [Feature Requests](.github/ISSUE_TEMPLATE/FEATURE_REQUEST.md)
+  - [Bug Reports](.github/ISSUE_TEMPLATE/BUG_REPORT.md)
+- [`.gitignore`](.gitignore)
+- [`.gitattributes`](.gitattributes)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contribution](CONTRIBUTING.md)
+- [License](LICENSE)
+- [Readme](README.md)
+- [Security](SECURITY.md)
 
 ## Status
 
-[![.github/workflows/scriptanalyzer.yml](https://github.com/segraef/PowerShell/actions/workflows/scriptanalyzer.yml/badge.svg)](https://github.com/segraef/PowerShell/actions/workflows/scriptanalyzer.yml)
+[![Default Workflow](https://github.com/segraef/Template/actions/workflows/workflow.yml/badge.svg)](https://github.com/segraef/Template/actions/workflows/workflow.yml)
 
 ## Reporting Issues and Feedback
 
@@ -22,16 +36,17 @@ If you would like to become an active contributor to this repository or project,
 
 ## Learn More
 
-* [PowerShell Documentation][PowerShellDocs]
+* [GitHub Documentation][GitHubDocs]
+* [Azure DevOps Documentation][AzureDevOpsDocs]
 * [Microsoft Azure Documentation][MicrosoftAzureDocs]
 
 <!-- References -->
 
 <!-- Local -->
-[GitHubIssues]: https://github.com/segraef/PowerShell/issues
+[GitHubDocs]: https://docs.github.com/
+[AzureDevOpsDocs]: https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops
+[GitHubIssues]: https://github.com/segraef/Template/issues
 [Contributing]: CONTRIBUTING.md
-[AzureIcon]: docs/media/MicrosoftAzure-32px.png
-[PowershellIcon]: docs/media/MicrosoftPowerShellCore-32px.png
 
 <!-- External -->
 [Az]: https://img.shields.io/powershellgallery/v/Az.svg?style=flat-square&label=Az
