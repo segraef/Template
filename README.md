@@ -36,12 +36,15 @@ If you would like to become an active contributor to this repository or project,
 
 ## Learn More
 
-* [PowerShell Documentation][PowerShellDocs]
+* [GitHub Documentation][GitHubDocs]
+* [Azure DevOps Documentation][AzureDevOpsDocs]
 * [Microsoft Azure Documentation][MicrosoftAzureDocs]
 
 <!-- References -->
 
 <!-- Local -->
+[GitHubDocs]: https://docs.github.com/
+[AzureDevOpsDocs]: https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops
 [GitHubIssues]: https://github.com/segraef/Template/issues
 [Contributing]: CONTRIBUTING.md
 
