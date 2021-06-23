@@ -5,7 +5,7 @@ This repository servers as a Template Repository. It brings you Templates for
 - [Azure DevOps Pull Requests](.azuredevops\PULL_REQUEST_TEMPLATE.md)
 - [Azure Pipelines](.pipelines\pipeline.yml)
 - [GitHub Workflows](.github\workflows\workflow.yml)
-- [GitHub Issues](.github\ISSUE_TEMPLATE\)
+- [GitHub Issues](.github/ISSUE_TEMPLATE/)
   - [Feature Requests](.github\ISSUE_TEMPLATE\FEATURE_REQUEST.md)
   - [Bug Reports](.github\ISSUE_TEMPLATE\BUG_REPORT.md)
 - [`.gitignore`](.gitignore)
