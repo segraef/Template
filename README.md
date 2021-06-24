@@ -21,7 +21,9 @@ This repository servers as a Default Template Repository according official [Git
 
 ## Status
 
-[![Default Workflow](https://github.com/segraef/Template/actions/workflows/workflow.yml/badge.svg)](https://github.com/segraef/Template/actions/workflows/workflow.yml)
+[![Linter](https://github.com/segraef/Template/actions/workflows/linter.yml/badge.svg)](https://github.com/segraef/Template/actions/workflows/linter.yml)
+
+[![Sample Workflow](https://github.com/segraef/Template/actions/workflows/workflow.yml/badge.svg)](https://github.com/segraef/Template/actions/workflows/workflow.yml)
 
 ## Creating a repository from a template
 

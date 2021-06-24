@@ -1,5 +1,4 @@
----
-name: "Default Workflow"
+name: "Sample Workflow"
 on:
   workflow_dispatch:
     inputs:
@@ -12,8 +11,6 @@ on:
         required: false
         default: 'The Universe'
 
-#on: push #workflow_dispatch # [pull_request] #push
-
 jobs:
   job:
     name: "Job"
@@ -21,7 +18,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Echo
+      - name: Hello
         shell: pwsh
         run: |
           echo "Hello ${{ github.event.inputs.name }}!"
