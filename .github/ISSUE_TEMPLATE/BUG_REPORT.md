@@ -1,20 +1,20 @@
 ---
-name: "Bug report"
+name: "Bug report \U0001F41B"
 about: Report errors or unexpected behaviour
 title: 'Bug Report'
 labels: bug
 assignees: ''
-
 ---
 
 <!-- Please search existing issues to avoid creating duplicates. -->
 
-**Describe the bug**
+## Description 
 
+Please describe your bug as detailed as possible. 
 
-**Steps to reproduce**
+### Steps to reproduce
 
 1.
 2.
 
-**Screenshots**
+### Screenshots
