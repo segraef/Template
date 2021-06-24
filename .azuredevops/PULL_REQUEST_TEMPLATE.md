@@ -1,4 +1,4 @@
-## Change
+# Change
 
 ***Feel free to remove this sample text***
 >Thank you for your contribution! Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
@@ -15,7 +15,7 @@ Please delete options that are not relevant.
 ## Checklist
 
 - [ ] I'm sure there are no other open Pull Requests for the same update/change
-- [ ] My corresponding pipelines / checks run clean and green without any errors or warnings
+- [ ] My corresponding Pipelines / Checks run clean and green without any errors or warnings
 - [ ] My code follows the style guidelines of this project
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation (readme)

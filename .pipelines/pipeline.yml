@@ -1,15 +1,7 @@
----
-name: "Default Workflow"
+name: "Default Pipeline"
 
-schedules:
-  - cron: "0 */6 * * *"
-    branches:
-      include:
-        - main
-    always: true
-
-variables:
-  - group: credentials
+trigger:
+- main
 
 pool:
   vmImage: ubuntu-latest
