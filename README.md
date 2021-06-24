@@ -1,4 +1,4 @@
-#  Template
+# Template
 
 This repository servers as a Default Template Repository according official [GitHub Contributing Guidelines][ProjectSetup] for healthy contributions. It brings you clean default Templates.
 
