@@ -1,6 +1,6 @@
 # Template
 
-This repository servers as a **Default Template Repository** according official [GitHub Contributing Guidelines][ProjectSetup] for healthy contributions. It brings you clean default Templates for several areas:
+This repository serves as a **Default Template Repository** according official [GitHub Contributing Guidelines][ProjectSetup] for healthy contributions. It brings you clean default Templates for several areas:
 
 - [Azure DevOps Pull Requests](.azuredevops/PULL_REQUEST_TEMPLATE.md) ([`.azuredevops\PULL_REQUEST_TEMPLATE.md`](`.azuredevops\PULL_REQUEST_TEMPLATE.md`))
 - [Azure Pipelines](.pipelines/pipeline.yml) ([`.pipelines/pipeline.yml`](`.pipelines/pipeline.yml`))
