@@ -8,9 +8,9 @@ assignees: ''
 
 <!-- Please search existing issues to avoid creating duplicates. -->
 
-## Description 
+## Description
 
-Please describe your bug as detailed as possible. 
+Please describe your bug as detailed as possible.
 
 ### Steps to reproduce
 

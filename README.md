@@ -21,9 +21,9 @@ This repository servers as a Default Template Repository according official [Git
 
 ## Status
 
-[![Linter](https://github.com/segraef/Template/actions/workflows/linter.yml/badge.svg)](https://github.com/segraef/Template/actions/workflows/linter.yml)
+[![Linter](<https://github.com/segraef/Template/actions/workflows/linter.yml/badge.svg>)](<https://github.com/segraef/Template/actions/workflows/linter.yml>)
 
-[![Sample Workflow](https://github.com/segraef/Template/actions/workflows/workflow.yml/badge.svg)](https://github.com/segraef/Template/actions/workflows/workflow.yml)
+[![Sample Workflow](<https://github.com/segraef/Template/actions/workflows/workflow.yml/badge.svg>)](<https://github.com/segraef/Template/actions/workflows/workflow.yml>)
 
 ## Creating a repository from a template
 
@@ -54,18 +54,18 @@ If you would like to become an active contributor to this repository or project,
 <!-- References -->
 
 <!-- Local -->
-[ProjectSetup]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions
-[CreateFromTemplate]: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template
-[GitHubDocs]: https://docs.github.com/
-[AzureDevOpsDocs]: https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops
-[GitHubIssues]: https://github.com/segraef/Template/issues
+[ProjectSetup]: <https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions>
+[CreateFromTemplate]: <https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template>
+[GitHubDocs]: <https://docs.github.com/>
+[AzureDevOpsDocs]: <https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops>
+[GitHubIssues]: <https://github.com/segraef/Template/issues>
 [Contributing]: CONTRIBUTING.md
 
 <!-- External -->
-[Az]: https://img.shields.io/powershellgallery/v/Az.svg?style=flat-square&label=Az
-[AzGallery]: https://www.powershellgallery.com/packages/Az/
-[PowerShellCore]: https://github.com/PowerShell/PowerShell/releases/latest
+[Az]: <https://img.shields.io/powershellgallery/v/Az.svg?style=flat-square&label=Az>
+[AzGallery]: <https://www.powershellgallery.com/packages/Az/>
+[PowerShellCore]: <https://github.com/PowerShell/PowerShell/releases/latest>
 
 <!-- Docs -->
-[MicrosoftAzureDocs]: https://docs.microsoft.com/en-us/azure/
-[PowerShellDocs]: https://docs.microsoft.com/en-us/powershell/
+[MicrosoftAzureDocs]: <https://docs.microsoft.com/en-us/azure/>
+[PowerShellDocs]: <https://docs.microsoft.com/en-us/powershell/>
