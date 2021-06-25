@@ -2,7 +2,7 @@
 
 Simple overview of your project and its use or purpose.
 
->Make use of the [Markdow Syntax Guidance](../markdown.md).
+>Make use of the [Markdow Syntax Guidance](markdown.md).
 
 ## Description
 
