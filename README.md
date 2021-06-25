@@ -15,6 +15,7 @@ This repository serves as a **Default Template Repository** according official [
 - [Wiki and Documentation](docs/) ([`docs/`](`docs/`))
 - [gitignore](.gitignore) ([`.gitignore`](.gitignore))
 - [gitattributes](.gitattributes) ([`.gitattributes`](.gitattributes))
+- [Changelog](CHANGELOG.md) ([`CHANGELOG.md`](`CHANGELOG.md`))
 - [Code of Conduct](CODE_OF_CONDUCT.md) ([`CODE_OF_CONDUCT.md`](`CODE_OF_CONDUCT.md`))
 - [Contribution](CONTRIBUTING.md) ([`CONTRIBUTING.md`](`CONTRIBUTING.md`))
 - [License](LICENSE) ([`LICENSE`](`LICENSE`)) _adjust projectname once cloned_
