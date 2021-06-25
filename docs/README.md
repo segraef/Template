@@ -10,7 +10,10 @@ Describe your project.
 
 ## Getting Started
 
-### Dependencies
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
 
 Describe any prerequisites or dependencies.
 
@@ -19,13 +22,16 @@ Describe any prerequisites or dependencies.
 * How/where to download your program
 * Any modifications needed to be made to files/folders
 
-### Execution
+  ```PowerShell
+  iex "&amp; { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+  ```
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 ## FAQ and Known Issues
 
@@ -40,6 +46,10 @@ Contributors names and contact info
 
 * You, Yourself and the Universe
 * [@your_twitter](<https://twitter.com/your_username>)
+
+## Contribution
+
+If you would like to become an active contributor to this repository or project, please follow the instructions provided in [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
 <!-- CONTACT -->
 ## Contact
