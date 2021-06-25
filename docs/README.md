@@ -36,9 +36,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## FAQ and Known Issues
 
 Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+  ```bash
+  command to run if program contains helper info
+  ```
 
 ## Contributors
 

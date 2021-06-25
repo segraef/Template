@@ -60,16 +60,16 @@ The blockquote element represents content that is quoted from another source, op
 ### Code block with backticks
 
   ```html
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-  </html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Example HTML5 Document</title>
+    </head>
+    <body>
+      <p>Test</p>
+    </body>
+    </html>
   ```
 ### Code block indented with four spaces
 
@@ -87,31 +87,31 @@ The blockquote element represents content that is quoted from another source, op
 ### Code block with highlight shortcode
 
   ```html
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-  </html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Example HTML5 Document</title>
+    </head>
+    <body>
+      <p>Test</p>
+    </body>
+    </html>
   ```
 
 ### Wide code block
 
   ```html
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </body>
-  </html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Example HTML5 Document</title>
+    </head>
+    <body>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </body>
+    </html>
   ```
 
 ## List Types
