@@ -22,7 +22,7 @@ Describe any prerequisites or dependencies.
 * How/where to download your program
 * Any modifications needed to be made to files/folders
 
-  ```PowerShell
+  ```powershell
   iex "&amp; { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
   ```
 
