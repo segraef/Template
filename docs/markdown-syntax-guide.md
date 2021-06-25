@@ -71,10 +71,13 @@ The blockquote element represents content that is quoted from another source, op
     </html>
 
 ### Wide code block
+Some text.
 
-  ```bash
-  iex "&amp; { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
-  ```
+```ruby
+Code block
+```
+
+Some more text.
 
 ## List Types
 
