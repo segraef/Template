@@ -84,21 +84,6 @@ The blockquote element represents content that is quoted from another source, op
     </body>
     </html>
 
-### Code block with highlight shortcode
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-
 ### Wide code block
 
 ```html
