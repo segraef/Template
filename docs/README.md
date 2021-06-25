@@ -27,7 +27,7 @@ Describe any prerequisites or dependencies.
 code blocks for commands
 ```
 
-## Support
+## FAQ and Known Issues
 
 Any advise for common problems or issues.
 ```
@@ -38,17 +38,23 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. You, Yourself and the Universe
-ex. [@segraef](https://twitter.com/segraef)
+* You, Yourself and the Universe
+* [@your_twitter](<https://twitter.com/your_username>)
 
-## Version History
+<!-- CONTACT -->
+## Contact
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+Your Name - [@your_twitter](<https://twitter.com/your_username>) - email@example.com
 
+Project Link: [https://github.com/your_username/repo_name](<https://github.com/your_username/repo_name>)
+
+
+<!-- LICENSE -->
 ## License
 
-See [`LICENSE`](`../../LICENSE`).
+Distributed under the MIT License. See [`LICENSE`](`../../LICENSE`).
+
+## References
+
+* [Emoji Cheat Sheet](<https://github.com/ikatyang/emoji-cheat-sheet>)
+* [License Helper](<https://choosealicense.com/>)
