@@ -70,15 +70,6 @@ The blockquote element represents content that is quoted from another source, op
     </body>
     </html>
 
-### Wide code block
-Some text.
-
-```ruby
-Code block
-```
-
-Some more text.
-
 ## List Types
 
 ### Ordered List
