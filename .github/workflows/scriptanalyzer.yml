@@ -1,0 +1,32 @@
+name: ScriptAnalyzer
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    name: Run PSScriptAnalyzer
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run PSScriptAnalyzer
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module PSScriptAnalyzer -Scope CurrentUser -Force
+          $settings = Join-Path $PWD 'PSScriptAnalyzerSettings.psd1'
+          $params = @{ Path = '.'; Recurse = $true; ReportSummary = $true }
+          if (Test-Path $settings) { $params.Settings = $settings }
+          $results = Invoke-ScriptAnalyzer @params
+          $results | Format-Table -AutoSize
+          if ($results | Where-Object Severity -in 'Error', 'Warning') {
+            Write-Error "PSScriptAnalyzer found $($results.Count) issue(s)."
+            exit 1
+          }

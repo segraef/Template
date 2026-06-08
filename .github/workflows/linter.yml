@@ -1,6 +1,13 @@
 name: Linter
 
-on: [pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  statuses: write
 
 jobs:
   build:
@@ -8,12 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Lint Code Base
-        uses: github/super-linter@v4.2.2
+        uses: super-linter/super-linter/slim@v7
         env:
           VALIDATE_ALL_CODEBASE: false
-          VALIDATE_MARKDOWN: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

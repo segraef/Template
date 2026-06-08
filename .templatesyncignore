@@ -1,0 +1,16 @@
+# Files that a generated repository owns. Template Sync must never overwrite them.
+# Syntax follows .gitignore semantics (AndreasAugustin/actions-template-sync).
+
+# Repository identity and history.
+README.md
+CHANGELOG.md
+LICENSE
+.github/CODEOWNERS
+
+# The sync workflow itself, so a downstream repo can pin its own schedule.
+.github/workflows/template-sync.yml
+
+# Add this repo's own source/content directories below, e.g.:
+# PowerShell/**
+# Bash/**
+# but keep the shared scaffolding (_Template.ps1, Write-Log.psm1, _Template.sh, log.sh).

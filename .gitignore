@@ -9,3 +9,21 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Logs / local
+*.log
+*.tmp
