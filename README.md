@@ -95,11 +95,5 @@ If you would like to become an active contributor to this repository or project,
 [GitHubIssues]: <https://github.com/segraef/Template/issues>
 [Contributing]: CONTRIBUTING.md
 
-<!-- External -->
-[Az]: <https://img.shields.io/powershellgallery/v/Az.svg?style=flat-square&label=Az>
-[AzGallery]: <https://www.powershellgallery.com/packages/Az/>
-[PowerShellCore]: <https://github.com/PowerShell/PowerShell/releases/latest>
-
 <!-- Docs -->
 [MicrosoftAzureDocs]: <https://docs.microsoft.com/en-us/azure/>
-[PowerShellDocs]: <https://docs.microsoft.com/en-us/powershell/>

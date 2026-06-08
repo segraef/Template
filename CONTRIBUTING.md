@@ -14,4 +14,3 @@ If you are taking the time to mention a problem, even a seemingly minor one, it 
 
 <!-- Local -->
 [GitHubIssues]: <https://github.com/segraef/Template/issues>
-[Contributing]: CONTRIBUTING.md

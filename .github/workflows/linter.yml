@@ -22,6 +22,18 @@ jobs:
       - name: Lint Code Base
         uses: super-linter/super-linter/slim@v7
         env:
+          # Super-Linter v7 enables ~50 validators by default. This is a curated
+          # opt-in: only the listed validators run (high-signal for a
+          # PowerShell / Bash / docs repo). PowerShell is also covered by the
+          # dedicated scriptanalyzer.yml workflow.
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
+          LINTER_RULES_PATH: .
+          VALIDATE_BASH: true
+          VALIDATE_YAML: true
+          VALIDATE_GITHUB_ACTIONS: true
+          VALIDATE_GITLEAKS: true
+          VALIDATE_MARKDOWN: true
+          # The markdown syntax guide intentionally contains edge-case tables.
+          FILTER_REGEX_EXCLUDE: docs/markdown-syntax-guide.md
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

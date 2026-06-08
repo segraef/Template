@@ -1,0 +1,14 @@
+# markdownlint configuration (consumed by Super-Linter's MARKDOWN validator).
+default: true
+
+# Long lines are fine: tables, badge URLs and reference links exceed 80 cols.
+MD013: false
+
+# Allow repeated sibling headings across sections (e.g. Added/Changed/Fixed per
+# CHANGELOG release).
+MD024:
+  siblings_only: true
+
+# Badges and icons use inline HTML / images in headings.
+MD033: false
+MD041: false
