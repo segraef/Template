@@ -54,7 +54,7 @@ If you would like to become an active contributor to this repository or project,
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](<https://twitter.com/your_username>) - email@example.com
+Your Name - [@your_twitter](<https://twitter.com/your_username>) - <email@example.com>
 
 Project Link: [https://github.com/your_username/repo_name](<https://github.com/your_username/repo_name>)
 

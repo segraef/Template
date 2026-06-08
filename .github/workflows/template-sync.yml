@@ -1,0 +1,34 @@
+name: Template Sync
+
+# Keeps repositories generated from this template in sync with its scaffolding.
+# Runs in the generated repo (skipped in the template itself) and opens a PR
+# whenever this template changes. Protect repo-specific files via .templatesyncignore.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    name: Sync from template
+    runs-on: ubuntu-latest
+    # No-op in the template repository itself.
+    if: github.repository != 'segraef/Template'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync from template
+        uses: AndreasAugustin/actions-template-sync@v2
+        with:
+          source_repo_path: segraef/Template
+          upstream_branch: main
+          pr_labels: template-sync
+          pr_title: "chore: sync from segraef/Template"

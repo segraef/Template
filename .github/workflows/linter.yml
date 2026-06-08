@@ -1,6 +1,13 @@
 name: Linter
 
-on: [pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  statuses: write
 
 jobs:
   build:
@@ -8,12 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Lint Code Base
-        uses: github/super-linter@v4.2.2
+        uses: super-linter/super-linter/slim@v7
         env:
+          # Super-Linter v7 enables ~50 validators by default. This is a curated
+          # opt-in: only the listed validators run (high-signal for a
+          # PowerShell / Bash / docs repo). PowerShell is also covered by the
+          # dedicated scriptanalyzer.yml workflow.
           VALIDATE_ALL_CODEBASE: false
-          VALIDATE_MARKDOWN: false
           DEFAULT_BRANCH: main
+          LINTER_RULES_PATH: .
+          VALIDATE_BASH: true
+          VALIDATE_YAML: true
+          VALIDATE_GITHUB_ACTIONS: true
+          VALIDATE_GITLEAKS: true
+          VALIDATE_MARKDOWN: true
+          # The markdown syntax guide intentionally contains edge-case tables.
+          FILTER_REGEX_EXCLUDE: docs/markdown-syntax-guide.md
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
